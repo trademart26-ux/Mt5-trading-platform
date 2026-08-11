@@ -1,0 +1,30 @@
+{
+  "name": "pipnex-ai-trading",
+  "version": "1.0.0",
+  "description": "Pipnex-like AI Trading Platform - Deploy to Heroku in 5 minutes",
+  "main": "heroku-app.js",
+  "scripts": {
+    "start": "node heroku-app.js",
+    "dev": "nodemon heroku-app.js"
+  },
+  "keywords": [
+    "trading",
+    "MT5",
+    "forex",
+    "automated",
+    "pipnex",
+    "signals"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": "18.17.0",
+    "npm": "9.0.0"
+  }
+}
